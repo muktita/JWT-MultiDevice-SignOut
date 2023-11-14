@@ -14,7 +14,10 @@
 ## Getting Started
 
 ### Build
+Go to Backend Folder
 ```cd backend```
+Run the docker file
+``docker-compose up``
 
 ### Deploy
 Refer to [instructions](infra/README.md) to deploy application and dependent services such as MongoDB, Redis, ... either to local machine or AWS.
