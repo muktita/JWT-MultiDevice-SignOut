@@ -20,7 +20,7 @@
 ## Functional Microservices
 | Microservice  | Description | Technologies Used |
 | --- | --- | --- |
-| [User Log-out Microservice] | Log User out from all devices. | A REST API built using NodeJS, ExpressJS relies MongoDB as a data store. | 
+| [CRUD and User Log-out Microservice] | CRUD Todo List & Log User out from all devices. | A REST API built using NodeJS, ExpressJS relies MongoDB as a data store. | 
 | [Sign In/Sign Up Page] | User Sign in and Sign up Page. | A Login Page using NodeJS, ReactJS, and ExpressJS relies MongoDB as a data store. |
 
 ## Getting Started
