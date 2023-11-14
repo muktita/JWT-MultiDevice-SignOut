@@ -7,10 +7,13 @@
 
 ## App -  UI/UX
 
+Login Page
+![front-end-login](https://github.com/muktita/dockerized-todo-app/assets/78444922/f13d78cc-9d1f-423a-84ca-b7e659f16772)
 
-![front-end-login](https://github.com/muktita/dockerized-todo-app/assets/78444922/f13d78cc-9d1f-423a-84ca-b7e659f16772) | ![front-end-registration](https://github.com/muktita/dockerized-todo-app/assets/78444922/15608a0f-a891-4aa8-9aa8-3754d0e701a3)
+Registration Page
+![front-end-registration](https://github.com/muktita/dockerized-todo-app/assets/78444922/15608a0f-a891-4aa8-9aa8-3754d0e701a3)
 
-
+To Do list Page
 ![front-end-todo](https://github.com/muktita/dockerized-todo-app/assets/78444922/8e474cb6-e2b8-4db4-ad3c-c021917e3762)
 
 
