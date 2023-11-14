@@ -20,6 +20,9 @@ Go to Backend Folder
 Run the docker file
 ``docker-compose up``
 
+Down the docker
+``docker-compose down``
+
 ### Deploy
 Refer to [instructions](infra/README.md) to deploy application and dependent services such as MongoDB, Redis, ... either to local machine or AWS.
 
