@@ -24,18 +24,19 @@
 | [Sign In/Sign Up Page] | User Sign in and Sign up Page. | A Login Page using NodeJS, ReactJS, and ExpressJS relies MongoDB as a data store. |
 
 ## Getting Started
-Log in to MongoDB
 ### Build
+Log in to MongoDB-Compass (For testing purposes, but for production, use strong username and password)
+
 | Username  | Password | 
 | --- | --- |
 | root | rootpassword |
 
-#### Run the Backend
+#### Run only the Backend
 ```cd backend```
 
 Run the docker file
 ``docker-compose up``
-#### Run the Frontend
+#### Run only the Frontend
 Go to frontend folder
 ``cd frontend``
 
@@ -44,7 +45,15 @@ Install all the packages
 
 Start the server
 ``npm start``
+#### Run only the Frontend, Backend and DB inside Docker
+To build and run
+``docker-compose up --build``
+
+To run in the background
+``docker-compose up -d``
 
 Down the docker
 ``docker-compose down``
+
+
 
