@@ -23,8 +23,3 @@ Run the docker file
 Down the docker
 ``docker-compose down``
 
-### Deploy
-Refer to [instructions](infra/README.md) to deploy application and dependent services such as MongoDB, Redis, ... either to local machine or AWS.
-
-## Issues & Feedback
-Raise an issue in Github. Will address as soon as possible.
