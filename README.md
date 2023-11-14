@@ -6,7 +6,10 @@
 - This is an end-to-end ** Log out All Users from ALl Devices solution** that demonstrates how to build a modern CNA application using microservices architecture with full-stack technologies. This application includes below functional microservices, which are independently deployable with bounded context.
 
 ## App -  UI/UX
-Login Page ![front-end-login](https://github.com/muktita/dockerized-todo-app/assets/78444922/f13d78cc-9d1f-423a-84ca-b7e659f16772)
+###Login Page
+
+
+![front-end-login](https://github.com/muktita/dockerized-todo-app/assets/78444922/f13d78cc-9d1f-423a-84ca-b7e659f16772)
 
 Registration Page
 ![front-end-registration](https://github.com/muktita/dockerized-todo-app/assets/78444922/15608a0f-a891-4aa8-9aa8-3754d0e701a3)
