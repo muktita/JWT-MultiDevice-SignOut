@@ -16,6 +16,7 @@
 ### Build
 Go to Backend Folder
 ```cd backend```
+
 Run the docker file
 ``docker-compose up``
 
