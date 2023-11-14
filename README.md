@@ -1,1 +1,1 @@
-# dockerized-todo-app
+# Dockerized ToDo App - Logout all sessions
