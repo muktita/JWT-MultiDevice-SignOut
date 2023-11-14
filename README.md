@@ -14,7 +14,7 @@
 ## Getting Started
 
 ### Build
-Go through detailed instructions specified in README.md file of each microservice.
+``cd backend``.
 
 ### Deploy
 Refer to [instructions](infra/README.md) to deploy application and dependent services such as MongoDB, Redis, ... either to local machine or AWS.
