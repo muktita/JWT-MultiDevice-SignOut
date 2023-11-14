@@ -1,6 +1,6 @@
 # Dockerized ToDo App - Logout all sessions
 **_A fictitious To-Do list sample application built using modern technologies and  Microservices & Cloud Native Architecture patterns._**
-- **Polyglot Languages & Frameworks** (JavaScript/TypeScript - Node, ExpressJS, React)
+- **Polyglot Frameworks** (JavaScript/TypeScript - Node, ExpressJS, React)
 - **Databases** (MongoDB)
 
 - This is an end-to-end ** Log out All Users from ALl Devices solution** that demonstrates how to build a modern CNA application using microservices architecture with full-stack technologies. This application includes below functional microservices, which are independently deployable with bounded context.
