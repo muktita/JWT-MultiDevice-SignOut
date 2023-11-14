@@ -1,0 +1,41 @@
+version: '3.7'
+services:
+
+    db:
+        image: mongo:latest
+        container_name: db
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: root
+            MONGO_INITDB_ROOT_PASSWORD: rootpassword
+        ports:
+            - 27017:27017
+        volumes:
+            - ./mongodb_data_container:/data/db
+        networks:
+            - test
+
+    # reactapp:
+    #     build: ./frontend
+    #     container_name: reactapp
+    #     depends_on:
+    #         - db
+    #     ports:
+    #         - 3000:3000
+    #     networks:
+    #         - test
+
+    nodeapp:
+        build: ./backend
+        container_name: nodeapp
+        env_file:
+            - ./.env
+        depends_on:
+            - db
+        ports:
+            - 8090:8000
+        networks:
+            - test
+
+
+networks:
+    test:

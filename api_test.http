@@ -1,0 +1,63 @@
+
+###
+POST http://localhost:8090/auth/registration
+content-type: application/json
+
+{
+    "username" : "test1",
+    "password" : "pass1"
+}
+
+
+
+###
+POST http://localhost:8090/auth/login
+content-type: application/json
+
+{
+    "username" : "test1",
+    "password" : "pass1"
+}
+
+
+###
+GET http://localhost:8090/todo
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTNlZDEyMGVmMjZmZDUxYTJlZTBkYyIsInVzZXJuYW1lIjoidGVzdDEiLCJleHAiOjE3MDAwMDI2MDAsImlhdCI6MTY5OTk5OTAwMH0.f4R6pcl91P-E5mvILReP-Py2CDKBRlBalaa4h9q39RI
+
+
+###
+GET http://localhost:8090/todo/654c732b2d9094824133997e
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTNlZDEyMGVmMjZmZDUxYTJlZTBkYyIsInVzZXJuYW1lIjoidGVzdDEiLCJleHAiOjE3MDAwMDI2MDAsImlhdCI6MTY5OTk5OTAwMH0.f4R6pcl91P-E5mvILReP-Py2CDKBRlBalaa4h9q39RI
+
+
+
+###
+POST http://localhost:8090/todo
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTNlZDEyMGVmMjZmZDUxYTJlZTBkYyIsInVzZXJuYW1lIjoidGVzdDEiLCJleHAiOjE3MDAwMDI2MDAsImlhdCI6MTY5OTk5OTAwMH0.f4R6pcl91P-E5mvILReP-Py2CDKBRlBalaa4h9q39RI
+
+{
+    "todo_text" : "todo 10"
+}
+
+
+
+###
+PATCH  http://localhost:8090/todo/654c74c9bf8ae80838ae523c
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTNlZDEyMGVmMjZmZDUxYTJlZTBkYyIsInVzZXJuYW1lIjoidGVzdDEiLCJleHAiOjE3MDAwMDI2MDAsImlhdCI6MTY5OTk5OTAwMH0.f4R6pcl91P-E5mvILReP-Py2CDKBRlBalaa4h9q39RI
+
+{
+    "todo_text" : "todo one"
+}
+
+
+###
+DELETE   http://localhost:8090/todo/654c74c9bf8ae80838ae523c
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTNlZDEyMGVmMjZmZDUxYTJlZTBkYyIsInVzZXJuYW1lIjoidGVzdDEiLCJleHAiOjE3MDAwMDI2MDAsImlhdCI6MTY5OTk5OTAwMH0.f4R6pcl91P-E5mvILReP-Py2CDKBRlBalaa4h9q39RI
+
+
+
